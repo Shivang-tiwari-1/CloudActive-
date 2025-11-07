@@ -79,19 +79,15 @@ POST /leaveEvent → Leave an event (requires JWT)
 ### Signup Page
 
 ![Signup Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/signup.png)
-![Signup Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/signup.png)
 _User enters name, phone, and password to create a new account. Upon successful signup, user is directed to login page_
 
 ### Login Page
 
 ![Login Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/login.png)
-![Login Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/login.png)
 _User logs in with email and password. If "Remember Me" is checked, the login state is persistent across page refreshes or closing the browser. The app uses a refresh token mechanism to automatically generate a new access token when the old one expires, ensuring the user stays logged in without losing their session._
 
 ### Profile Page
-### Profile Page
 
-![Profile Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/profile.png)
 ![Profile Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/profile.png)
 Logged-in users can update their own events. The modal/page allows editing the following fields:
 
@@ -108,8 +104,17 @@ Location – Venue or address of the event.
 At least one field must be provided to update the event. Upon submitting, the app triggers the updateEvent API call to save changes. Success or error messages are shown based on the API response.
 
 ### Update Page
-### Update Page
 
 ![Update Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/update.png)
-![Update Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/update.png)
-Lists all available events with details such as title, description, date, time, and location. Logged-in users can click on an event to view more details or join/leave the event.
+
+### Event Attendence
+
+![Event Attendence](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/event%20attendence.png)
+Screenshot showing the list of attendees for a specific event.  
+Users can see who has joined the event and can leave the event if they had previously joined.
+
+### View Event
+
+![Event Attendence](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/view%20Event.png)
+Screenshot of the event details page.  
+Displays information such as the event title, description, date, time, location, and a list of attendees. Users can join or leave the event from this page.
