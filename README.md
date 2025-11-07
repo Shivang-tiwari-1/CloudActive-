@@ -83,7 +83,7 @@ _User enters name, phone, and password to create a new account. Upon successful 
 
 ### Login Page
 
-![Login Page](https://raw.githubusercontent.com/Shivang-tiwari-1/Assignment/main/ScreenShot/loginpage.png)
+![Login Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/login.png)
 _User logs in with email and password. If "Remember Me" is checked, the login state is persistent across page refreshes or closing the browser. The app uses a refresh token mechanism to automatically generate a new access token when the old one expires, ensuring the user stays logged in without losing their session._
 
 ### Products Page
