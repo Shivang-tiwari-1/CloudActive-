@@ -78,17 +78,17 @@ POST /leaveEvent → Leave an event (requires JWT)
 
 ### Signup Page
 
-![Signup Page](screenShoot\signup.png)
+![Signup Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/signup.png)
 _User enters name, phone, and password to create a new account. Upon successful signup, user is directed to login page_
 
 ### Login Page
 
-![Login Page](https://raw.githubusercontent.com/Shivang-tiwari-1/Assignment/main/ScreenShot/loginpage.png)
+![Login Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/login.png)
 _User logs in with email and password. If "Remember Me" is checked, the login state is persistent across page refreshes or closing the browser. The app uses a refresh token mechanism to automatically generate a new access token when the old one expires, ensuring the user stays logged in without losing their session._
 
-### Products Page
+### Profile Page
 
-![Update Page](https://raw.githubusercontent.com/Shivang-tiwari-1/Assignment/main/ScreenShot/productpage.png)
+![Profile Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/profile.png)
 Logged-in users can update their own events. The modal/page allows editing the following fields:
 
 Title – The name of the event (maximum 10 words).
@@ -103,7 +103,7 @@ Location – Venue or address of the event.
 
 At least one field must be provided to update the event. Upon submitting, the app triggers the updateEvent API call to save changes. Success or error messages are shown based on the API response.
 
-### Cart Page
+### Update Page
 
-![Home Page](https://raw.githubusercontent.com/Shivang-tiwari-1/Assignment/main/ScreenShot/cart.png)
+![Update Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/update.png)
 Lists all available events with details such as title, description, date, time, and location. Logged-in users can click on an event to view more details or join/leave the event.
