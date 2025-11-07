@@ -78,7 +78,7 @@ POST /leaveEvent → Leave an event (requires JWT)
 
 ### Signup Page
 
-![Signup Page](screenShoot\signup.png)
+![Signup Page]([screenShoot\signup.png](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/home.png))
 _User enters name, phone, and password to create a new account. Upon successful signup, user is directed to login page_
 
 ### Login Page
