@@ -103,7 +103,7 @@ Location – Venue or address of the event.
 
 At least one field must be provided to update the event. Upon submitting, the app triggers the updateEvent API call to save changes. Success or error messages are shown based on the API response.
 
-### Cart Page
+### Update Page
 
-![Home Page](https://raw.githubusercontent.com/Shivang-tiwari-1/Assignment/main/ScreenShot/cart.png)
+![Update Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/update.png)
 Lists all available events with details such as title, description, date, time, and location. Logged-in users can click on an event to view more details or join/leave the event.
