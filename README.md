@@ -106,6 +106,9 @@ At least one field must be provided to update the event. Upon submitting, the ap
 ### Update Page
 
 ![Update Page](https://github.com/Shivang-tiwari-1/CloudActive-/blob/main/screenShoot/update.png)
+Screenshot of the event update page.  
+Allows the event creator to edit the event details such as title, description, date, time, and location.  
+Changes can be saved to update the event information for all users.
 
 ### Event Attendence
 
